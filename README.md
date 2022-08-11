@@ -34,6 +34,8 @@ https://devdocs.io/css/
    >>> property: what?
    >>> value: how?
  
+ > CSS reference: https://www.w3schools.com/cssref/
+ 
  
  
  ```
