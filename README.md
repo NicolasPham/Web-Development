@@ -19,7 +19,7 @@ https://devdocs.io/css/
  
  ```
  2. CSS - Cascaing Style Sheets
- ```sql
+ ```ruby
  Good color for background: https://colorhunt.co/
  Border-style: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
  
@@ -47,7 +47,28 @@ https://devdocs.io/css/
    >>> img:hover {
     background-color: gold;
     } ---change the background color to gold when you point the mouse at the image
+    
+  > Favicons: favourite icons - icon inserted in the head
+   >> https://www.favicon.cc/
+  > Border styling:
+   >> {border-width: 0px 10px 20px 30px}: top right bottom left
+   >> {padding: 20px}: 20px of space from all edges of text to border
+   >> {margin: 10px}: gaps between boxes
   
+  > Display property:
+   >> Block elements: headers, paragraphs, division, lists and list itenms, forms
+   >> Inline elements: (span, images, anchors) it does not take the whole box like block
+   >> Inline-block element: combine
+   >> None: get rid of the element. we can use display: none or visibility: hidden
+   
+  > Positions:
+   >> Static: go along with HTML rules and keep to the default HTML flow
+   >> Relative: position that the element relative to it would have been position in static
+   >> Absolute: 
+   >> Fixed:
+   
+   
+   
    
  
  
