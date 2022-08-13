@@ -70,7 +70,10 @@ https://devdocs.io/css/
  > Font-family:
   >> Font stack:  https://www.cssfontstack.com/
   >> Goole font: https://fonts.google.com/?query=sacra&category=Handwriting
-  
+ 
+ > FLoating:
+  >> float: left; --> float the image to the left and wrap the paragraph to the right
+  >> clear: left; --> clear the floating of the text and return the element to where it should be without floating
   
    
    
