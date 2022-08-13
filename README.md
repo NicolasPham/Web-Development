@@ -58,15 +58,20 @@ https://devdocs.io/css/
   > Display property:
    >> Block elements: headers, paragraphs, division, lists and list itenms, forms
    >> Inline elements: (span, images, anchors) it does not take the whole box like block
-   >> Inline-block element: combine
+   >> **Inline-block element: combine**
    >> None: get rid of the element. we can use display: none or visibility: hidden
    
   > Positions:
    >> Static: go along with HTML rules and keep to the default HTML flow
-   >> Relative: position that the element relative to it would have been position in static
-   >> Absolute: 
-   >> Fixed:
-   
+   >> Relative: position that the element relative to it would have been position in static, doest not effect the flow of HTML
+   >> Absolute: position the element relative to its parent, it effects the flow of HTML (the parent position has to be set as "relative")
+   >> Fixed: position of element fixed even when we scoll the webpage
+
+ > Font-family:
+  >> Font stack:  https://www.cssfontstack.com/
+  >> Goole font: https://fonts.google.com/?query=sacra&category=Handwriting
+  
+  
    
    
    
