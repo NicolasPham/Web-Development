@@ -1,8 +1,7 @@
 https://devdocs.io/css/
 
-1. HTML
-
-<detail><summary>Collapse</summary><p>
+**1. HTML**
+<details><summary>Collapse</summary><p>
 
 ``` sql
 
@@ -21,10 +20,11 @@ https://devdocs.io/css/
  ```
  
  </p>
- </detail>
+ </details>
  
+**2. CSS - Cascaing Style Sheets**
+ <details><summary>Collapse</summary><p>
  
- 2. CSS - Cascaing Style Sheets
  ```ruby
  Good color for background: https://colorhunt.co/
  Border-style: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
@@ -82,13 +82,18 @@ https://devdocs.io/css/
  > FLoating:
   >> float: left; --> float the image to the left and wrap the paragraph to the right
   >> clear: left; --> clear the floating of the text and return the element to where it should be without floating
-  
-
+      
+ ```
+ </p></details>
  
-   
-   
-   
+**3. Boostrap -- Front-end Library**
+ <details><summary>Collapse</summary><p>
+ 
+ ```ruby
+ 
  
  
  ```
+ </p></details>
+ 
  
