@@ -23,7 +23,7 @@ https://devdocs.io/css/
  Good color for background: https://colorhunt.co/
  Border-style: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
  Button Generator: https://css3buttongenerator.com/
- Challenge: frontendmentor.io
+ Challenge: https://www.frontendmentor.io/
  
 > **Important order when different styles apply in the same html file:**
  >> In-line CSS
