@@ -1,6 +1,9 @@
 https://devdocs.io/css/
 
 1. HTML
+
+<detail><summary>Collapse</summary><p>
+
 ``` sql
 
 > Form:
@@ -15,9 +18,12 @@ https://devdocs.io/css/
  <br>: break the line
  <hr>: create a horizontal line
  
- 
- 
  ```
+ 
+ </p>
+ </detail>
+ 
+ 
  2. CSS - Cascaing Style Sheets
  ```ruby
  Good color for background: https://colorhunt.co/
