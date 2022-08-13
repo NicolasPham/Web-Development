@@ -22,6 +22,8 @@ https://devdocs.io/css/
  ```ruby
  Good color for background: https://colorhunt.co/
  Border-style: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+ Button Generator: https://css3buttongenerator.com/
+ Challenge: frontendmentor.io
  
 > **Important order when different styles apply in the same html file:**
  >> In-line CSS
@@ -75,6 +77,8 @@ https://devdocs.io/css/
   >> float: left; --> float the image to the left and wrap the paragraph to the right
   >> clear: left; --> clear the floating of the text and return the element to where it should be without floating
   
+
+ 
    
    
    
