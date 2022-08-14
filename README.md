@@ -97,6 +97,7 @@ Install bootstrap in HTML:
   </details>
  <a href="https://getbootstrap.com/docs/5.2/components/navbar/">navbar</a><br>
  <a href="https://getbootstrap.com/docs/5.2/layout/grid/">Grid System</a><br>
+ <a href="https://getbootstrap.com/docs/5.2/layout/containers/">Container</a><br>
  
  <details><summary>Collapse</summary><p>
  
@@ -110,6 +111,11 @@ Install bootstrap in HTML:
  
  > Grid
   >> Responsive layout breakpoints: lg (Laptop), md (tablet), sm (phone) 
+ 
+ > Container:
+  >> max-width: set at each responsive breakpoint
+  >> container-{breakpoint}: which is width:100% until the specified breakpoint
+   
  ```
  </p></details>
  
