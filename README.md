@@ -95,7 +95,9 @@
 Install bootstrap in HTML:
  <details><summary>Link install into HTML CSS</summary>https://getbootstrap.com/docs/5.2/getting-started/download/
   </details>
- <a href="https://getbootstrap.com/docs/5.2/components/navbar/">navbar</a>
+ <a href="https://getbootstrap.com/docs/5.2/components/navbar/">navbar</a><br>
+ <a href="https://getbootstrap.com/docs/5.2/layout/grid/">Grid System</a><br>
+ 
  <details><summary>Collapse</summary><p>
  
  ```ruby
@@ -104,7 +106,10 @@ Install bootstrap in HTML:
  >> .bg-dark: for dark background color
  >> .navbar-dark: dark color for navbar
  >> .navbar-brand: for company, product, project name
- >> navbar-toggler: left aligned by default, 
+ >> navbar-toggler: left aligned by default,
+ 
+ > Grid
+  >> Responsive layout breakpoints: lg (Laptop), md (tablet), sm (phone) 
  ```
  </p></details>
  
