@@ -95,13 +95,16 @@
 Install bootstrap in HTML:
  <details><summary>Link install into HTML CSS</summary>https://getbootstrap.com/docs/5.2/getting-started/download/
   </details>
-  
+ <a href="https://getbootstrap.com/docs/5.2/components/navbar/">navbar</a>
  <details><summary>Collapse</summary><p>
  
  ```ruby
-
- 
- 
+> Navbar: 
+ >> .navbar and .navbar-expand are required for responsive collapsing
+ >> .bg-dark: for dark background color
+ >> .navbar-dark: dark color for navbar
+ >> .navbar-brand: for company, product, project name
+ >> navbar-toggler: left aligned by default, 
  ```
  </p></details>
  
