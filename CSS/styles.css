@@ -1,0 +1,149 @@
+/** Font family**/
+/**
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+**/
+
+/**********Delete the margin from h1 and body**********/
+
+a {
+    text-decoration: None;
+    color: #11999E;
+    font-family: verdana, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: verdana, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    background-color: #F5E8E4;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding: 30px;
+    line-height: 2rem;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: verdana, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.contact-me {
+    text-align: center;
+
+}
+
+.circular {
+    border-radius: 100%;
+    width: 300px;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: auto 1em;
+}
+
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size:5.625rem;
+    color: #66bfbf;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    text-align: left;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+
+hr.hr-dotted {
+    border: dotted #EAF6F6 1rem;
+    border-bottom: none;
+    width: 7%;
+    margin: 3rem auto;
+}
+
+.img-left-wrap {
+    width: 20%;
+    height: auto;
+    border-radius: 30%;
+    float: left;
+    margin: 0 30px 20px 0;
+}
+
+.img-right-wrap {
+    width: 20%;
+    height: auto;
+    border-radius: 30%;
+    float: right;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 60px;
+    left: 65%;
+}
