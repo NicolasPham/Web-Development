@@ -102,7 +102,7 @@ Install bootstrap in HTML:
  <details><summary>Collapse</summary><p>
  
  ```ruby
-> Navbar: 
+> <Navbar>: 
  >> .navbar and .navbar-expand are required for responsive collapsing
  >> .bg-dark: for dark background color
  >> .navbar-dark: dark color for navbar
@@ -112,9 +112,11 @@ Install bootstrap in HTML:
  > Grid
   >> Responsive layout breakpoints: lg (Laptop), md (tablet), sm (phone) 
  
- > Container:
+ > .Container:
   >> max-width: set at each responsive breakpoint
   >> container-{breakpoint}: which is width:100% until the specified breakpoint
+  >> container-fluid: which is 100% width at all breakpoints
+  
    
  ```
  </p></details>
