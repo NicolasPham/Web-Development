@@ -116,6 +116,9 @@ Install bootstrap in HTML:
   >> max-width: set at each responsive breakpoint
   >> container-{breakpoint}: which is width:100% until the specified breakpoint
   >> container-fluid: which is 100% width at all breakpoints
+   >>> .container-fluid {
+        padding: 3% 15% !important
+        }
   
    
  ```
