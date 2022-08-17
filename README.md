@@ -98,6 +98,7 @@ Install bootstrap in HTML:
  <a href="https://getbootstrap.com/docs/5.2/components/navbar/">navbar</a><br>
  <a href="https://getbootstrap.com/docs/5.2/layout/grid/">Grid System</a><br>
  <a href="https://getbootstrap.com/docs/5.2/layout/containers/">Container</a><br>
+ <a href ='https://getbootstrap.com/docs/5.2/components/carousel/'>Carousel</a><br>
  
  <details><summary>Collapse</summary><p>
  
@@ -119,8 +120,10 @@ Install bootstrap in HTML:
    >>> .container-fluid {
         padding: 3% 15% !important
         }
-  
-   
+ > Carousel: slideshow components that cycling through elements
+   >> .active class needs to be added to one of the slides - otherwise, carousel wont be visible
+   >> Set the unique id on the .carousel for optional controls
+   >> Control and indicator elements must have a "data-bs-target" attribute (or href for links) that matches the id on the .carousel
  ```
  </p></details>
  
