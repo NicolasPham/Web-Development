@@ -124,6 +124,11 @@ Install bootstrap in HTML:
    >> .active class needs to be added to one of the slides - otherwise, carousel wont be visible
    >> Set the unique id on the .carousel for optional controls
    >> Control and indicator elements must have a "data-bs-target" attribute (or href for links) that matches the id on the .carousel
+   
+ > Card: provide a flexible and extensible content container with multiple variants and options
+   >> Cards have no fixed width to start, so they'll natually fill the full width of its parent element. Could be customized with "sizing options"
+   
+   
  ```
  </p></details>
  
