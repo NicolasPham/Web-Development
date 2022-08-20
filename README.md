@@ -127,7 +127,9 @@ Install bootstrap in HTML:
    
  > Card: provide a flexible and extensible content container with multiple variants and options
    >> Cards have no fixed width to start, so they'll natually fill the full width of its parent element. Could be customized with "sizing options"
-   
+
+> Stacking order:
+  >> z-index: 
    
  ```
  </p></details>
