@@ -87,7 +87,21 @@
  > FLoating:
   >> float: left; --> float the image to the left and wrap the paragraph to the right
   >> clear: left; --> clear the floating of the text and return the element to where it should be without floating
-      
+ 
+ > Media Querry Breakpoint:
+ >> @media (min-width:750px) and (max-width:1028px) { //change something } : set up the change in responsive breakpoints webpage
+
+ > Code regactoring:
+  >> 1. Readability
+  >> 2. Modularity
+  >> 3. Efficiency
+  >> 4. Length
+ 
+ > Combine selectors:
+  >> .selector1, .selector2 {}: apply to all selectors appear
+  >> #id .class {}: select class that has parents as #id
+  >> .class1.class2 {} :select element that has 2 classes
+  
  ```
  </p></details>
  
@@ -127,20 +141,6 @@ Install bootstrap in HTML:
    
  > Card: provide a flexible and extensible content container with multiple variants and options
    >> Cards have no fixed width to start, so they'll natually fill the full width of its parent element. Could be customized with "sizing options"
-
-> Media Querry Breakpoint:
- >> @media (min-width:750px) and (max-width:1028px) { //change something } : set up the change in responsive breakpoints webpage
-
-> Code regactoring:
- >> 1. Readability
- >> 2. Modularity
- >> 3. Efficiency
- >> 4. Length
- 
-> Combine selectors:
- >> .selector1, .selector2 {}: apply to all selectors appear
- >> #id .class {}: select class that has parents as #id
- >> .class1.class2 {} :select element that has 2 classes
  
    
  ```
