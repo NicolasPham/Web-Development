@@ -146,4 +146,19 @@ Install bootstrap in HTML:
  ```
  </p></details>
  
+ **4. Web Design**
+  <details><summary>Collapse</summary><p>
+ 
+ ```ruby
+ > Color Theory:
+  >> Moods: 
+   >> Red: love, enerygy, intensity
+   >> Yellow: Joy, Intellect, Attention
+   >> Green: Freshness, safety, growth
+   >> Blue: Stability, trust, serenity
+   >> Purple: Royalty, Weath, femiminity
+ 
+ 
+ ```
+ </p></detail>
  
