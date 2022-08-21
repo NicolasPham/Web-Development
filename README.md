@@ -128,8 +128,14 @@ Install bootstrap in HTML:
  > Card: provide a flexible and extensible content container with multiple variants and options
    >> Cards have no fixed width to start, so they'll natually fill the full width of its parent element. Could be customized with "sizing options"
 
-> Stacking order:
-  >> z-index: 
+> Media Querry Breakpoint:
+ >> @media (min-width:750px) and (max-width:1028px) { //change something } : set up the change in responsive breakpoints webpage
+
+> Code regactoring:
+ >> 1. Readability
+ >> 2. Modularity
+ >> 3. Efficiency
+ >> 4. Length
    
  ```
  </p></details>
