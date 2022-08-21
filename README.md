@@ -136,6 +136,12 @@ Install bootstrap in HTML:
  >> 2. Modularity
  >> 3. Efficiency
  >> 4. Length
+ 
+> Combine selectors:
+ >> .selector1, .selector2 {}: apply to all selectors appear
+ >> #id .class {}: select class that has parents as #id
+ >> .class1.class2 {} :select element that has 2 classes
+ 
    
  ```
  </p></details>
