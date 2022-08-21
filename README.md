@@ -95,16 +95,48 @@
 Install bootstrap in HTML:
  <details><summary>Link install into HTML CSS</summary>https://getbootstrap.com/docs/5.2/getting-started/download/
   </details>
- <a href="https://getbootstrap.com/docs/5.2/components/navbar/">navbar</a>
+ <a href="https://getbootstrap.com/docs/5.2/components/navbar/">navbar</a><br>
+ <a href="https://getbootstrap.com/docs/5.2/layout/grid/">Grid System</a><br>
+ <a href="https://getbootstrap.com/docs/5.2/layout/containers/">Container</a><br>
+ <a href ='https://getbootstrap.com/docs/5.2/components/carousel/'>Carousel</a><br>
+ 
  <details><summary>Collapse</summary><p>
  
  ```ruby
-> Navbar: 
+> <Navbar>: 
  >> .navbar and .navbar-expand are required for responsive collapsing
  >> .bg-dark: for dark background color
  >> .navbar-dark: dark color for navbar
  >> .navbar-brand: for company, product, project name
- >> navbar-toggler: left aligned by default, 
+ >> navbar-toggler: left aligned by default,
+ 
+ > Grid
+  >> Responsive layout breakpoints: lg (Laptop), md (tablet), sm (phone) 
+ 
+ > .Container:
+  >> max-width: set at each responsive breakpoint
+  >> container-{breakpoint}: which is width:100% until the specified breakpoint
+  >> container-fluid: which is 100% width at all breakpoints
+   >>> .container-fluid {
+        padding: 3% 15% !important
+        }
+ > Carousel: slideshow components that cycling through elements
+   >> .active class needs to be added to one of the slides - otherwise, carousel wont be visible
+   >> Set the unique id on the .carousel for optional controls
+   >> Control and indicator elements must have a "data-bs-target" attribute (or href for links) that matches the id on the .carousel
+   
+ > Card: provide a flexible and extensible content container with multiple variants and options
+   >> Cards have no fixed width to start, so they'll natually fill the full width of its parent element. Could be customized with "sizing options"
+
+> Media Querry Breakpoint:
+ >> @media (min-width:750px) and (max-width:1028px) { //change something } : set up the change in responsive breakpoints webpage
+
+> Code regactoring:
+ >> 1. Readability
+ >> 2. Modularity
+ >> 3. Efficiency
+ >> 4. Length
+   
  ```
  </p></details>
  
