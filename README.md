@@ -162,3 +162,12 @@ Install bootstrap in HTML:
  ```
  </p></detail>
  
+  **5. JavaScript**
+  <details><summary>Collapse</summary><p>
+ 
+ ```ruby
+>> word.length: count the length of a string
+ 
+ 
+ ```
+ </p></detail>
