@@ -101,7 +101,20 @@
   >> .selector1, .selector2 {}: apply to all selectors appear
   >> #id .class {}: select class that has parents as #id
   >> .class1.class2 {} :select element that has 2 classes
+
+> Flexbox:
+ >> .container {
+  >>> Display: flex;
+  >>> justify-content: space-between / center; - align items across the main axis. Not changing the width of the items
+  >>> align-items: center; align items across the corss axis.
+  >>>  gap: 8px: add space between flex items, similar to adding a margin to the items
+  }
   
+ >> .item {
+  >>> Flex: 1  1 auto;
+  >>> Flex-direction: column / row;
+ } 
+
  ```
  </p></details>
  
