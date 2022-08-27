@@ -173,14 +173,22 @@ Install bootstrap in HTML:
  
  
  ```
- </p></detail>
+ </p></details>
  
   **5. JavaScript**
   <details><summary>Collapse</summary><p>
  
  ```ruby
->> word.length: count the length of a string
+> BASIC:
+ >> word.length: count the length of a string
+ >> word.slice(a,b): slice the string from a to b
+ >> word.toUpperCase() / WORD.toLowerCase(): WORD / word
+ >> text1.concat(text2) : text1text2
+ >> modulo: let 9 % 6 : = 3. Take the remaining of the division 
+ >> x ++ : x = x + 1 : increment
+ >> x += 2: the increment is 2 instead of 1 by default
+ 
  
  
  ```
- </p></detail>
+ </p></details>
