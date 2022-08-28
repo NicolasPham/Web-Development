@@ -187,6 +187,27 @@ Install bootstrap in HTML:
  >> modulo: let 9 % 6 : = 3. Take the remaining of the division 
  >> x ++ : x = x + 1 : increment
  >> x += 2: the increment is 2 instead of 1 by default
+ >> Math.power(3,2) : 3^2 = 9
+ >> Math.round(3.5) = 6: round to the nearest whole number
+ >> Math.random(): generate random 16 decimal number from 0 - 0.999999999999999
+ >> Control Flow: 
+  >>> if (track === "clear") {
+   goStraight ();
+   } else {
+   turnRight();
+   }
+   
+> Advance:
+ >> Comparator:
+  >>> ==: equal to (only content) such as 1 = "1"
+  >>> ===: stickly equal to
+  >>> && : and
+  >>> ||: or
+  >>> !: not
+ >> Arrays: names = [name0, name1, name2, name3, etc.];
+  >>> names.length; :count length of arrays
+  >>> names.includes (name3): TRUE
+  >>> 
  
  
  
