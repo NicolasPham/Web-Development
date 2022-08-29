@@ -207,6 +207,8 @@ Install bootstrap in HTML:
  >> Arrays: names = [name0, name1, name2, name3, etc.];
   >>> names.length; :count length of arrays
   >>> names.includes (name3): TRUE
+  >>> names.push(name6);: add an element to the end of the array
+  >>> name.pop: remove the last item from the array
   >>> 
  
  
