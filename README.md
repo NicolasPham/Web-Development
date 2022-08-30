@@ -220,6 +220,12 @@ Install bootstrap in HTML:
   >> i < 2: end
   >> i++: change step
  
+> DOM: Document Object Model
+ >> Get property: button (.innerHTML, .style, .firstChild)
+ >> Set property:
+ >> Call method: button (.click(), .appendChild(), .setAttribute())
+ >> Document.querrySelector("button").click();
+ 
  
  
  
