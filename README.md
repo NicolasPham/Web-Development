@@ -209,7 +209,18 @@ Install bootstrap in HTML:
   >>> names.includes (name3): TRUE
   >>> names.push(name6);: add an element to the end of the array
   >>> name.pop: remove the last item from the array
-  >>> 
+ 
+ >> While loops: while (something is true) {//Do something}
+  >> while (i < 2) {
+     console.log(i)
+     i++ ; 
+     }
+ >> For loops: for (i = 0; i < 2; i++) { // Do something}
+  >> i = 0 : start
+  >> i < 2: end
+  >> i++: change step
+ 
+ 
  
  
  
