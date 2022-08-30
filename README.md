@@ -226,8 +226,13 @@ Install bootstrap in HTML:
  >> Call method: button (.click(), .appendChild(), .setAttribute())
  >> Document.querrySelector("button").click();
  
+ >> getElementsByTagName("li")[2].style.color = "purple" : change the color of the item has index of 2 to purple
+ >> getElementsbyClassName("btn"): select the elements by class
+ >> getElementById("button"): the Element in this method is single, because there is no 2 elements have the same ID
+ >> querrySelector("h1 / #title / .btn"): we can select whatever elements we want by putting the sign at front like CSS. We can combine the selectors as well (like CSS)
+ >> querrySelectorAll ("#list .item") : select all the elements that satisfy the querry
  
- 
+ >> DOM style object: how to apply different style to objects instead of CSS
  
  
  ```
