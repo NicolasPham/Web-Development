@@ -233,7 +233,12 @@ Install bootstrap in HTML:
  >> querrySelectorAll ("#list .item") : select all the elements that satisfy the querry
  
  >> DOM style object: how to apply different style to objects instead of CSS
- 
+ >> document.querySelector("button").classList: add / remove / toggle ("invisible");
+ >> .innerHTML vs .textcontent: the .innerHTML can add everything inside the elements like <strong>, <em> but .textcontent only change the content
+ >> attributes: everything that goes in the tag name are attributes (class, href, type, src are all attributes)
+  >>> document.querySelector("a").attributes;
+  >>> .querySelector("a").getAttributes("href");: www.google.com
+  >>> .querySelector("a").setAttributes("href", "www.bing.com");
  
  ```
  </p></details>
