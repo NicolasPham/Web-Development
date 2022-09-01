@@ -240,5 +240,9 @@ Install bootstrap in HTML:
   >>> .querySelector("a").getAttributes("href");: www.google.com
   >>> .querySelector("a").setAttributes("href", "www.bing.com");
  
+>> .addEventListener(): set up a function that will be called whenever the specified event is delivered to the target.
+ >>> Syntax: .addEventListener(type, listener, (options / useCapture));
+ 
+ 
  ```
  </p></details>
