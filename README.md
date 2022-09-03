@@ -242,7 +242,27 @@ Install bootstrap in HTML:
  
 >> .addEventListener(): set up a function that will be called whenever the specified event is delivered to the target.
  >>> Syntax: .addEventListener(type, listener, (options / useCapture));
+
+>> Javascript Object: 
+ >>> dictionary: varible {key1: dict1, key2: dict2, key3: dict3, ....}
+ >>> variable.key1 = dict1
  
+>> Construction function: the name of the function has be capitalized to differentiate with other functions
+ >>> function BellBoy (name, age, workPermit, languages) {
+ this.name = name;
+ this.age = age;
+ this.workPermit = workPermit;
+ this.languages = languages;
+ }
+ >>> let bellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"]);
  
+>> Switch statement:
+ >>> switch (expression) {
+      case expression:
+      
+        break;  
+      default:
+      
+ }
  ```
  </p></details>
