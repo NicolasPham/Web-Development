@@ -242,6 +242,8 @@ Install bootstrap in HTML:
  
 >> .addEventListener(): set up a function that will be called whenever the specified event is delivered to the target.
  >>> Syntax: .addEventListener(type, listener, (options / useCapture));
+ >>> "click": click the mouse on the button
+ >>> "pressdown": press the keyboard button
 
 >> Javascript Object: 
  >>> dictionary: varible {key1: dict1, key2: dict2, key3: dict3, ....}
@@ -253,6 +255,7 @@ Install bootstrap in HTML:
  this.age = age;
  this.workPermit = workPermit;
  this.languages = languages;
+ this.moveSuitcase = function () {alert("May I take your suitcase?");}
  }
  >>> let bellBoy1 = new BellBoy("Timmy", 19, true, ["French", "English"]);
  
