@@ -219,7 +219,8 @@ Install bootstrap in HTML:
   >> i = 0 : start
   >> i < 2: end
   >> i++: change step
- 
+ ```
+ ```python
 > DOM: Document Object Model
  >> Get property: button (.innerHTML, .style, .firstChild)
  >> Set property:
@@ -267,5 +268,10 @@ Install bootstrap in HTML:
       default:
       
  }
+ 
+ 
+>> JQuery: 
+ >>> $ = document.querySelector
+ 
  ```
  </p></details>
