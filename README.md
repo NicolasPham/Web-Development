@@ -176,7 +176,7 @@ Install bootstrap in HTML:
  </p></details>
  
   **5. JavaScript**
-  <details><summary>Collapse</summary><p>
+  <details><summary>Javascript</summary><p>
  
  ```ruby
 > BASIC:
@@ -220,6 +220,10 @@ Install bootstrap in HTML:
   >> i < 2: end
   >> i++: change step
  ```
+ </p></details>
+ 
+ <details><summary>DOM</summary><p>
+ 
  ```python
 > DOM: Document Object Model
  >> Get property: button (.innerHTML, .style, .firstChild)
@@ -269,9 +273,28 @@ Install bootstrap in HTML:
       
  }
  
+ ```
+ </p></details>
+ <details><summary>JQuery</summary><p>
  
->> JQuery: 
- >>> $ = document.querySelector
+ ```python
  
+> JQuery: 
+ >> $ = document.querySelector / document.querySelectorAll
+   >>> $("h1").css("color", "red"): change the css color to red of h1
+ >> $("h1").addClass("big-title margin-50"): add class ".big-title" and ".margin-50" to "h1".
+   >>> .addClass: add class to element ("big-title");
+   >>> .removeClass: remove class from element ("big-title");
+   >>> .hasClass("big-title"): true
+   >>> .text("Bye"): change the text inside the HTML to "Bye"
+   >>> .html("<em>Don't Click Me</em>");
+   >>> $("a").attr("href", "https://www.google.com"); change the attribute
+
+>> addEventListener:
+   >>> $("h1").click(functionc () { //Do something});
+   >>> $("button").click(function () {
+       $("h1").css("color", "red");
+   })
+   >>> $("input").keydown(function (event) { console.log(event.key); })
  ```
  </p></details>
