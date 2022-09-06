@@ -296,5 +296,19 @@ Install bootstrap in HTML:
        $("h1").css("color", "red");
    })
    >>> $("input").keydown(function (event) { console.log(event.key); })
+   >>> $("h1").on("mouseover", function () {$("h1").css("color", "red")}) : apply to all methods
+   >>> "on" method: https://developer.mozilla.org/en-US/docs/Web/Events
+   
+   >>> adding and removing element: 
+      - before / after: $("h1").before("<button>New button</button>"): add element before / after the h1
+      - prepend / append: $("h1").prepend("<button>New button</button>"): add element before / after the content of h1
+      - $(button).remove(): remove all the button elements
+      
+ >> Animations: https://www.w3schools.com/jquery/jquery_ref_effects.asp
+   >>> hide() / show() / toggle(): $("h1").hide(): affect the flow of the HTML
+   >>> fadeOut() / fadeIn() / fadeToggle(): it fade the elementb before hide it
+   >>> slideUp() / slideDown() / slideToggle(): slide the item before hide it
+   >>> Animate: $("h1").animate({opacity: 0.5}): change the custom animation
+      
  ```
  </p></details>
