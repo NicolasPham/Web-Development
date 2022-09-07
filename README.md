@@ -1,7 +1,8 @@
+<details><summary>FRONT END</summary><p>
+
 **Reference Link**
 <p>
 <a href ="https://dribbble.com/">Dribble</a><br>
-<a href ="https://devdocs.io/css/">Developent DOCS</a><br>
  <a href="https://www.figma.com/files/recent?fuid=1140292514495248365">Wireframe Website</a><br>
 </p>
 
@@ -158,24 +159,9 @@ Install bootstrap in HTML:
    
  ```
  </p></details>
- 
- **4. Web Design**
-  <details><summary>Collapse</summary><p>
- 
- ```ruby
- > Color Theory:
-  >> Moods: 
-   >> Red: love, enerygy, intensity
-   >> Yellow: Joy, Intellect, Attention
-   >> Green: Freshness, safety, growth
-   >> Blue: Stability, trust, serenity
-   >> Purple: Royalty, Weath, femiminity
- 
- 
- ```
- </p></details>
- 
+  
   **5. JavaScript**
+    <details><summary>Collapse</summary><p>
   <details><summary>Javascript</summary><p>
  
  ```ruby
@@ -310,4 +296,4 @@ Install bootstrap in HTML:
    >>> Animate: $("h1").animate({opacity: 0.5}): change the custom animation
       
  ```
- </p></details>
+ </p></details> </p></details> </p><details>
