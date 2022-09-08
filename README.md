@@ -298,6 +298,6 @@ Install bootstrap in HTML:
  ```
  </p></details> </p></details> </p><details>
    
-   <details><summary>BACK-END</summary><p>
+<details><summary>BACK-END</summary><p>
     
-    </p></details>
+</p></details>
