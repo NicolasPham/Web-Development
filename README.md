@@ -299,5 +299,8 @@ Install bootstrap in HTML:
  </p></details> </p></details> </p><details>
    
 <details><summary>BACK-END</summary><p>
-    
+
+1. NodeJs
+> REPL : read - evaluate - print - loop
+ >> NPM install: npm init
 </p></details>
