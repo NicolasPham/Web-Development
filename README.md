@@ -1,5 +1,3 @@
-<details><summary>FRONT-END</summary><p>
-
 **Reference Link**
 <p>
 <a href ="https://dribbble.com/">Dribble</a><br>
@@ -296,11 +294,4 @@ Install bootstrap in HTML:
    >>> Animate: $("h1").animate({opacity: 0.5}): change the custom animation
       
  ```
- </p></details> </p></details> </p><details>
-   
-<details><summary>BACK-END</summary><p>
-
-1. NodeJs
-> REPL : read - evaluate - print - loop
- >> NPM install: npm init
-</p></details>
+ </p></details> </p></details>
