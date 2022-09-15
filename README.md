@@ -14,7 +14,7 @@
  >> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
  >> Atrribute: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
  
- <form>
+ <form action = "/" method="post"> : send the data into the input in the location that are in "action"
    <label></label>
    <input></input>
  </form>
@@ -321,5 +321,10 @@ Install bootstrap in HTML:
 >> install: npm install -g nodemon
 >> usage: nodemon [your node app]
 
+- body-parser: extracts the entire body portion of an incoming request stream and exposes it req.body
+ >> install: npm install body-parser
+ >> const bodyParser = require("body-parser");
+ >> app.use(bodyParser.urlencode({extended: true}));
+ 
 ```
 </p><details>
