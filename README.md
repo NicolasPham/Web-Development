@@ -1,3 +1,4 @@
+<details><summary>FRONT-END</summary><p>
 **Reference Link**
 <p>
 <a href ="https://dribbble.com/">Dribble</a><br>
@@ -294,4 +295,31 @@ Install bootstrap in HTML:
    >>> Animate: $("h1").animate({opacity: 0.5}): change the custom animation
       
  ```
- </p></details> </p></details>
+ </p></details>
+ </p></details>
+</p></details>
+
+---
+
+<details><summary>BACK-END</summary><p>
+1. NodeJs: install: npm init
+2. Expressjs:
+<details><p>
+
+```python
+- Install: 
+>> npm install express
+>> const express = require("express");
+>> const  app = express();
+
+- Handling Request and Response:
+>> app.get("/", (req, res) => res.sendFile(__dirname + "index.html"));
+>> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com"));
+>> app.listen(3000, () => console.log("Server is running on port 3000"));
+
+- Nodemon: automatically restarting the node application when file changes in directory are detected
+>> install: npm install -g nodemon
+>> usage: nodemon [your node app]
+
+```
+</p><details>
