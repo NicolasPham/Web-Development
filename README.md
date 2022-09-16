@@ -325,6 +325,17 @@ Install bootstrap in HTML:
  >> install: npm install body-parser
  >> const bodyParser = require("body-parser");
  >> app.use(bodyParser.urlencode({extended: true}));
+
+ ```
+</p></details>
  
-```
-</p><details>
+3. APIs: Application Programming Interfaces
+ <details>
+  
+  ```python
+  
+ - Definition: an application programming interface (API) is a set of commands, functions, protocols, and objects that programmers can use to create software or interact with an external system.
+  >> 
+  
+ ```
+</details>
