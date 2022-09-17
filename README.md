@@ -342,8 +342,10 @@ Install bootstrap in HTML:
    >> JSON.stringify(data): turn data into flat
   > HTTPS:
    >> const https = require("https")
-   >> app.get("/", (req, res) => {
-       https.get("http:// .... {url}", (resonse) => {
+   >> app.post("/", (req, res) => {
+       let cityName = req.body.cityName;
+       let apiKey = {key}
+       https.get("http:// .... ?q=${cityName}&appid=${apiKey}", (resonse) => {
          response.on("data", (data) => {
          const weatherData = JSON.parse(data); //convert data to JSON
          let temp = weatherData.main.temp;
