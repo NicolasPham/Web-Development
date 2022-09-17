@@ -313,9 +313,11 @@ Install bootstrap in HTML:
 >> const  app = express();
 
 - Handling Request and Response:
->> app.get("/", (req, res) => res.sendFile(__dirname + "index.html"));
->> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com"));
+>> app.get("/", (req, res) => res.sendFile(__dirname + "index.html")); 
+>> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com")); //we can use res.write with combination of res.send
 >> app.listen(3000, () => console.log("Server is running on port 3000"));
+>> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
+ >>> req.body.idName : idName must match with the id of the button
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
 >> install: npm install -g nodemon
@@ -335,7 +337,25 @@ Install bootstrap in HTML:
   ```python
   
  - Definition: an application programming interface (API) is a set of commands, functions, protocols, and objects that programmers can use to create software or interact with an external system.
-  >> 
+ - JSON: Javascript Object Notation:
+   >> JSON.parse(data): turn data into json viewer awesome
+   >> JSON.stringify(data): turn data into flat
+  > HTTPS:
+   >> const https = require("https")
+   >> app.get("/", (req, res) => {
+       https.get("http:// .... {url}", (resonse) => {
+         response.on("data", (data) => {
+         const weatherData = JSON.parse(data); //convert data to JSON
+         let temp = weatherData.main.temp;
+         let icon = weatherData.weather[0].icon;
+         let iconurl = `http://openweathermap.org/img/wn/${icon}@2x.png`
+         let iconImage = `<img src = ${iconurl}>`
+         res.write(`The temp is ${temp} degrees Celcius.`);
+         res.write(iconImage);
+         res.send();
+         })
+       })
+       })
   
  ```
 </details>
