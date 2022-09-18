@@ -65,20 +65,13 @@
  >> External CSS: link at the head section as
   >>> <link rel="stylesheet" href="..." type="text/css">
   >>> In exteral css: .selector {property: value;}
-  
-> Syntax:
- >> selector {property: value;}
-   >>> selector: who?
-   >>> property: what?
-   >>> value: how?
- 
- > CSS reference: https://www.w3schools.com/cssref/
- 
+   
  > Diffrence betwween Class vs Id:
   >> .class {property: value;}  --- you can apply the same class in different positions
   >> #id {property:value;} --- you can only have a single id name in a whole page
   >> another selector:
-   >>> img:hover {
+  
+  >> img:hover {
     background-color: gold;
     } ---change the background color to gold when you point the mouse at the image
     
