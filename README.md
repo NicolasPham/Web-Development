@@ -1,4 +1,4 @@
-<details><summary>FRONT-END</summary><p>
+<details><summary>FRONT-END</summary>
 **Reference Link**
 <p>
 <a href ="https://dribbble.com/">Dribble</a><br>
@@ -44,8 +44,6 @@
  <hr>: create a horizontal line
  
  ```
- 
- </p>
  </details>
  
 **2. CSS - Cascaing Style Sheets**
@@ -56,24 +54,15 @@
  Border-style: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
  Button Generator: https://css3buttongenerator.com/
  Challenge: https://www.frontendmentor.io/
- 
-> **Important order when different styles apply in the same html file:**
- >> In-line CSS
-  >>> <body style="background-color: mintcream;">
- >> Internal CSS: insert at the head section
-  >>> selector{prorperty: value;}
- >> External CSS: link at the head section as
-  >>> <link rel="stylesheet" href="..." type="text/css">
-  >>> In exteral css: .selector {property: value;}
-   
- > Diffrence betwween Class vs Id:
-  >> .class {property: value;}  --- you can apply the same class in different positions
-  >> #id {property:value;} --- you can only have a single id name in a whole page
-  >> another selector:
-  
-  >> img:hover {
+    
+> Pseudo:
+ >> Classes: hover, checked, active, nth-child, nth-of-type
+  >>> img:hover {
     background-color: gold;
     } ---change the background color to gold when you point the mouse at the image
+ >> Element:: after / before / first-letter / first-line / selection
+  >>> ::selection: change the style of selected element
+  
     
   > Favicons: favourite icons - icon inserted in the head
    >> https://www.favicon.cc/
@@ -105,12 +94,6 @@
  > Media Querry Breakpoint:
  >> @media (min-width:750px) and (max-width:1028px) { //change something } : set up the change in responsive breakpoints webpage
 
- > Code regactoring:
-  >> 1. Readability
-  >> 2. Modularity
-  >> 3. Efficiency
-  >> 4. Length
- 
  > Combine selectors:
   >> .selector1, .selector2 {}: apply to all selectors appear
   >> #id .class {}: select class that has parents as #id
