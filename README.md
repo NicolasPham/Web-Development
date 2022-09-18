@@ -317,7 +317,8 @@ Install bootstrap in HTML:
 >> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com")); //we can use res.write with combination of res.send
 >> app.listen(3000, () => console.log("Server is running on port 3000"));
 >> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
- >>> req.body.idName : idName must match with the id of the button
+ >>> req.body.idName : idName must match with the name of the input
+>> app.use(express.static("{folderName}"); //link the css sources and imgages to the html
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
 >> install: npm install -g nodemon
