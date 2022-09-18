@@ -8,15 +8,35 @@
 **1. HTML**
 <details><summary>Collapse</summary><p>
 
-``` sql
+``` python
+>Table: 
+>> thead
+ >> tr: table row
+  >>> <th rowspan = "2" colspan = "2">: table header
+ >> /tr
+>> /thead
+>> tbody
+  >>> td: table data - single cell
+  >>> td: table data - single cell
+>> /tbody
+>> tfoot 
 
 > Form:
  >> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
  >> Atrribute: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
  
- <form action = "/" method="post"> : send the data into the input in the location that are in "action"
-   <label></label>
-   <input></input>
+ <form action = "/" method="post">
+  >> action: WHERE the form data should be sent
+  >> method: which HTTP method should be used
+   <label for = "{input ID}"></label>
+   <input type = "{text / password / email / range / color / number / time / file / checkbox / radio / select} name={input name}"></input>
+      >> input name: is used to link with button to send data to the server
+      >> radio: all the connected radios must have the same "name" and different "value"
+      >> checkbox could be used attribute "checked" as default
+   <button type="{button / submit}">Submit</button>
+      >> <select name="" id=""><option value=""></option></select>
+      >> <range name="" id="" min="" max="" step=""
+  >> <textarea name="" row="10" cols="30">
  </form>
  
  <br>: break the line
