@@ -38,6 +38,7 @@
       >> <range name="" id="" min="" max="" step=""
   >> <textarea name="" row="10" cols="30">
  </form>
+ - Form validation: required / minlength-maxlength (for string) / min-max(for number) / 
  
  <br>: break the line
  <hr>: create a horizontal line
