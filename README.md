@@ -103,10 +103,6 @@
    >> Fixed: position of element fixed even when we scoll the webpage
    >> sticky: it go along with the page when we scoll down but it does not stick on the top (not fixed at first then fixed later)
    
-  > Transition: property name | duration | timing function | dalay
-   >> transition: background-color 3s 1s; -- 3s needed take to change background color after 1s delay
-   >> timing function: linear | ease-in | ease-out | ease | ease-in-out
-
  > Relative units:
   >> width: 50%: set the width 50% of its parent
   >> em: 1em = font size of the parent. 2em = 2* font-size of the parent. For other properties like padding, margin, em is refered to the font-size itself
@@ -130,8 +126,11 @@
 
 - Other assorted useful properties:
  > Opacity: 0 - 1: the transparant of the "entire element"
- > 
-
+ > Transition: property name | duration | timing function | dalay
+  >> transition: background-color 3s 1s; -- 3s needed take to change background color after 1s delay
+  >> timing function: linear | ease-in | ease-out | ease | ease-in-out
+ > transform: rotate | scale | translate(moving) | skew
+  >> transform-orgin: center | top-left | bottom-right
  ```
  </p></details>
  
