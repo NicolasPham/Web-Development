@@ -70,19 +70,48 @@
    >> {border-width: 0px 10px 20px 30px}: top right bottom left
    >> {padding: 20px}: 20px of space from all edges of text to border
    >> {margin: 10px}: gaps between boxes
+ 
+ - Box Model:
+ > Border: border-width / border-color / border-style
+  >> box-sizing: boder-box; -- set the border-box as box-size
+  >> box-style: solid / dotted / inset / dashed / double;
+  >> border: 10px double #000; - shorthand for setting border
   
-  > Display property:
-   >> Block elements: headers, paragraphs, division, lists and list itenms, forms
-   >> Inline elements: (span, images, anchors) it does not take the whole box like block
-   >> **Inline-block element: combine**
+ > Flexbox:
+  >> .container {
+   >>> Display: flex;
+   >>> justify-content: space-between / center; - align items across the main axis. Not changing the width of the items
+   >>> align-items: center; align items across the corss axis.
+   >>>  gap: 8px: add space between flex items, similar to adding a margin to the items
+  }
+  
+  >> .item {
+   >>> Flex: 1  1 auto;
+   >>> Flex-direction: column / row;
+ } 
+ 
+ > Display property:
+   >> Block elements: take up the whole line
+   >> Inline elements: width and height are ignored. Padding could be added but it does not take any space. It does not push other elements away. 
+   >> Inline-block element: width, height, padding and margin could be changed respectively
    >> None: get rid of the element. we can use display: none or visibility: hidden
    
   > Positions:
    >> Static: go along with HTML rules and keep to the default HTML flow
    >> Relative: position that the element relative to it would have been position in static, doest not effect the flow of HTML
-   >> Absolute: position the element relative to its parent, it effects the flow of HTML (the parent position has to be set as "relative")
+   >> Absolute: position the element relative to its parent, it effects the flow of HTML (the parent position has to be set as "relative"). There is no space created for the element
    >> Fixed: position of element fixed even when we scoll the webpage
+   >> sticky: it go along with the page when we scoll down but it does not stick on the top (not fixed at first then fixed later)
+   
+  > Transition: property name | duration | timing function | dalay
+   >> transition: background-color 3s 1s; -- 3s needed take to change background color after 1s delay
+   >> timing function: linear | ease-in | ease-out | ease | ease-in-out
 
+ > Relative units:
+  >> width: 50%: set the width 50% of its parent
+  >> em: 1em = font size of the parent. 2em = 2* font-size of the parent. For other properties like padding, margin, em is refered to the font-size itself
+  >> rem: relative to the root element's font-size.
+  
  > Font-family:
   >> Font stack:  https://www.cssfontstack.com/
   >> Goole font: https://fonts.google.com/?query=sacra&category=Handwriting
@@ -99,18 +128,9 @@
   >> #id .class {}: select class that has parents as #id
   >> .class1.class2 {} :select element that has 2 classes
 
-> Flexbox:
- >> .container {
-  >>> Display: flex;
-  >>> justify-content: space-between / center; - align items across the main axis. Not changing the width of the items
-  >>> align-items: center; align items across the corss axis.
-  >>>  gap: 8px: add space between flex items, similar to adding a margin to the items
-  }
-  
- >> .item {
-  >>> Flex: 1  1 auto;
-  >>> Flex-direction: column / row;
- } 
+- Other assorted useful properties:
+ > Opacity: 0 - 1: the transparant of the "entire element"
+ > 
 
  ```
  </p></details>
