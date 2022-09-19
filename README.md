@@ -131,6 +131,12 @@
   >> timing function: linear | ease-in | ease-out | ease | ease-in-out
  > transform: rotate | scale | translate(moving) | skew
   >> transform-orgin: center | top-left | bottom-right
+ > background:
+  >> background-image: url("/.././...")
+  >> background-size: contain | conver | auto
+  >> background-position: top | left | center ...
+  >> background-repeat: no-repeat
+  >> background: image| size | repeat | ...
  ```
  </p></details>
  
