@@ -204,6 +204,10 @@ Install bootstrap in HTML:
    turnRight();
    }
    
+ >> console.log | console.error | console.warning
+ >> Truthy and False: everything that is not (false | 0 | "" | null | undefine | NaN) are true.
+ 
+   
 > Advance:
  >> Comparator:
   >>> ==: equal to (only content) such as 1 = "1"
@@ -216,6 +220,15 @@ Install bootstrap in HTML:
   >>> names.includes (name3): TRUE
   >>> names.push(name6);: add an element to the end of the array
   >>> name.pop: remove the last item from the array
+  >>> shift and unshift: remove / add from start
+   >>> concat: merge array
+   >>> includes: look for a value
+   >>> indexOf: just like string.indexOf
+   >>> join: create a string from an array
+   >>> reverse: reverse an array
+   >>> slice: copy a portion from an array. Can be used with "negative index"
+   >>> splice (start[, deleteCount[, item1 [, item2 [, item3]]]]): remove / replace element
+   >>> sort: sort an array
  
  >> While loops: while (something is true) {//Do something}
   >> while (i < 2) {
