@@ -206,6 +206,7 @@ Install bootstrap in HTML:
    
  >> console.log | console.error | console.warning
  >> Truthy and False: everything that is not (false | 0 | "" | null | undefine | NaN) are true.
+ >> parseInt: parse a string argument and return an integer
  
    
 > Advance:
@@ -239,6 +240,13 @@ Install bootstrap in HTML:
   >> i = 0 : start
   >> i < 2: end
   >> i++: change step
+   
+ > For ... OF:
+   >> for (variable of iterable) {statement}
+   >> example: 
+   >>> const subreddits =  [sub1, sub2, sub3, sub4];
+   >>> for (let sub of subredits) {console.log(sub)};
+   >>> for (let char of "Hello World!") {console.log(char};
  ```
  </p></details>
  
