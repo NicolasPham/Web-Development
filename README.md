@@ -253,6 +253,22 @@ Install bootstrap in HTML:
    >>> for (let char of "Hello World!") {console.log(char};
    >>> for (let person in testScore) {console.log(`${person} scored ${testScore[person]}`)}
    
+ >> Function:
+  - Returning  functions:
+   >>> function makeBetweenFunc(min, max) {
+       return function () {
+         return num >= min && num <= max;
+       }}
+   >>> const isChild = makeBetweenFunc(0,18);
+   >>> isChild(7) //true
+   >>> isChidl(40) // false
+  - Higher Order Function:
+   >>> function callTwice(func) {
+       func();
+       func();
+       }
+  - Defining Methods:
+   >>> 
  ```
  </p></details>
  
