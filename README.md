@@ -25,7 +25,7 @@
  >> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
  >> Atrribute: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
  
- <form action = "/" method="post">
+ <form action = "/" method="post" onsubmit="runMe(); return false">
   >> action: WHERE the form data should be sent
   >> method: which HTTP method should be used
    <label for = "{input ID}"></label>
@@ -40,6 +40,15 @@
  </form>
  - Form validation: required / minlength-maxlength (for string) / min-max(for number) / 
  
+<video | audio controls> 
+   <source src = "....">
+</video | audio>
+
+<ifram src = "...." width = "500px" height = "700px" framebody = "0"></iframe> // add another website to our website like google maps, youtube
+
+<small>Copyright &copy 2022. All rights reserved.</small> // create a copyright
+
+  
  <br>: break the line
  <hr>: create a horizontal line
  
