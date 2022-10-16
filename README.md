@@ -408,7 +408,16 @@ Install bootstrap in HTML:
  >>> req.body.idName : idName must match with the name of the input
 >> app.use(express.static("{folderName}"); //link the css sources and imgages to the html
 >> Express Path Parameter:
-  >>> "/:something"
+  >>> "/:something" :checking for pattern like an variable
+>> Query String:
+  app.get("/search", (req, res) => {
+  const { q } = req.query;
+  if (!q) {
+    res.send("Nothing found")
+  }
+  res.send(`<h1>Search result for: ${q}</h1>`)
+  })
+  
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
 >> install: npm install -g nodemon
