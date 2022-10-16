@@ -418,6 +418,8 @@ Install bootstrap in HTML:
   res.send(`<h1>Search result for: ${q}</h1>`)
   })
   
+- Templating:
+ - 
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
 >> install: npm install -g nodemon
