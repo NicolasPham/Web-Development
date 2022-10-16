@@ -396,15 +396,19 @@ Install bootstrap in HTML:
 - Install: 
 >> npm install express
 >> const express = require("express");
->> const  app = express();
+>> const app = express();
+>> const port = 3000;
 
 - Handling Request and Response:
 >> app.get("/", (req, res) => res.sendFile(__dirname + "index.html")); 
 >> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com")); //we can use res.write with combination of res.send
->> app.listen(3000, () => console.log("Server is running on port 3000"));
+>> app.use(() => console.log("We got a new request!!!!")) //anytime we hit refresh, this code run
+>> app.listen(port, () => console.log("Server is running on port 3000"));
 >> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
  >>> req.body.idName : idName must match with the name of the input
 >> app.use(express.static("{folderName}"); //link the css sources and imgages to the html
+>> Express Path Parameter:
+  >>> "/:something"
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
 >> install: npm install -g nodemon
