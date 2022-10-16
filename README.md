@@ -377,6 +377,11 @@ Install bootstrap in HTML:
 
 <details><summary>BACK-END</summary><p>
 1. NodeJs: install: npm init
+ - node myFile.js //Run the node file 
+ - process.cwd() //print the current directory
+ - process.argv // return an array containing the command line arguments passed when the NOde.js process was launched
+ - 
+ 
 2. Expressjs:
 <details><p>
 
