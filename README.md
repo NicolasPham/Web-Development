@@ -463,3 +463,15 @@ Install bootstrap in HTML:
   
  ```
 </details>
+
+4. React - Portfolio:
+<details>
+
+``` ruby
+- JSON packages:
+ >> @sanity/client
+ >> @sanity/image-url
+ >> framer-motion
+ >> node-sass
+ >> react-icons
+</details>
