@@ -474,4 +474,16 @@ Install bootstrap in HTML:
  >> framer-motion
  >> node-sass
  >> react-icons
+ 
+- Steps:
+ >> Create folders named: aboutm header, footer, skills, testimonials, works.
+ >> Create jsx files and scss files inside the container as schemas
+ >> Create other folders called: assets, components, constants
+ >> Inside components, create Navbar folder and 2 files inside Navbar.jsx and Navbar.scss
+ 
+ 
+ 
+ 
+ 
+ 
 </details>
