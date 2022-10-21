@@ -483,7 +483,9 @@ Install bootstrap in HTML:
  
 - Connect to Sanity to Fetch Data:
  >> create a client.js file in 'back-end folder' (look the file in porfolio project)
+  >>> terminal: sanity manage - to get all information for client file
  >> create a .env file in 'front-end folder' to secure the "projectId" and "token"
+  >>> terminal: sanity start - compile and fetch data at defined localhost
  
  
  
