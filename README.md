@@ -481,6 +481,10 @@ Install bootstrap in HTML:
  >> Create other folders called: assets, components, constants
  >> Inside components, create Navbar folder and 2 files inside Navbar.jsx and Navbar.scss
  
+- Connect to Sanity to Fetch Data:
+ >> create a client.js file in 'back-end folder' (look the file in porfolio project)
+ >> create a .env file in 'front-end folder' to secure the "projectId" and "token"
+ 
  
  
  
