@@ -389,7 +389,7 @@ Install bootstrap in HTML:
   >> 
  
  ```
-2. Expressjs:
+2. Expressjs: http://expressjs.com/en/5x/api.html#app.set
 <details><p>
 
 ```python
@@ -400,8 +400,13 @@ Install bootstrap in HTML:
 >> const port = 3000;
 
 - Handling Request and Response:
+>> app.set(name, value); //assign the setting name to value
+  - When using 'view engine': we must create a folder called 'views'
+
 >> app.get("/", (req, res) => res.sendFile(__dirname + "index.html")); 
 >> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com")); //we can use res.write with combination of res.send
+>> app.get('/', (req, res) => res.render('home'); //render the HTML file home 
+
 >> app.use(() => console.log("We got a new request!!!!")) //anytime we hit refresh, this code run
 >> app.listen(port, () => console.log("Server is running on port 3000"));
 >> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
