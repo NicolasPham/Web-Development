@@ -392,7 +392,7 @@ Install bootstrap in HTML:
 2. Expressjs: http://expressjs.com/en/5x/api.html#app.set
 <details><p>
 
-```python
+```javascript
 - Install: 
 >> npm install express
 >> const express = require("express");
@@ -403,6 +403,10 @@ Install bootstrap in HTML:
 >> app.set(name, value); //assign the setting name to value
   - When using 'view engine': we must create a folder called 'views'
 
+// Change the path directory:
+ >> const path = require('path');
+ >> app.set('views', path.join(__dirname, '/views') // join the path in the parentheses
+ 
 >> app.get("/", (req, res) => res.sendFile(__dirname + "index.html")); 
 >> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com")); //we can use res.write with combination of res.send
 >> app.get('/', (req, res) => res.render('home'); //render the HTML file home 
@@ -412,8 +416,10 @@ Install bootstrap in HTML:
 >> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
  >>> req.body.idName : idName must match with the name of the input
 >> app.use(express.static("{folderName}"); //link the css sources and imgages to the html
+ 
 >> Express Path Parameter:
   >>> "/:something" :checking for pattern like an variable
+ 
 >> Query String:
   app.get("/search", (req, res) => {
   const { q } = req.query;
@@ -423,8 +429,20 @@ Install bootstrap in HTML:
   res.send(`<h1>Search result for: ${q}</h1>`)
   })
   
-- Templating:
- - 
+- Templating EJS language: https://ejs.co/
+ - in Index.js: app.get('/', (req, res) => {
+                const num = Math.floor(Math.random())
+                res.render('random', {num})
+                });
+ - in random.ejs: <h1>Your random number is <%= num %></h1>
+ - CONDITION in EJS:
+ >> <h3><%= rand % 2 === 0 ? "Even" : "Odd" %></h3>
+ - LOOP in EJS:
+ >> <ul> 
+    <% for (let cat of cats) { %>
+ <li> <%= cat %> </li>
+   <% } %>
+    </ul>
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
 >> install: npm install -g nodemon
