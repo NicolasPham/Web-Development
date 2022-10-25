@@ -412,6 +412,11 @@ Install bootstrap in HTML:
 >> app.get('/', (req, res) => res.render('home'); //render the HTML file home 
 
 >> app.use(() => console.log("We got a new request!!!!")) //anytime we hit refresh, this code run
+
+-  Serve static assest: express.static(root, [optional]);
+>> const path = require('path')
+>> app.use(express.static(path.join(__dirname, "/public")));
+
 >> app.listen(port, () => console.log("Server is running on port 3000"));
 >> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
  >>> req.body.idName : idName must match with the name of the input
@@ -443,6 +448,9 @@ Install bootstrap in HTML:
  <li> <%= cat %> </li>
    <% } %>
     </ul>
+    
+ - Includes:
+ <%- include ('partials/navbar') %>
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
 >> install: npm install -g nodemon
