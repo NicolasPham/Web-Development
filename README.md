@@ -440,16 +440,18 @@ Install bootstrap in HTML:
                 res.render('random', {num})
                 });
  - in random.ejs: <h1>Your random number is <%= num %></h1>
- - CONDITION in EJS:
+ 
+- CONDITION in EJS:
  >> <h3><%= rand % 2 === 0 ? "Even" : "Odd" %></h3>
- - LOOP in EJS:
+ 
+- LOOP in EJS:
  >> <ul> 
     <% for (let cat of cats) { %>
  <li> <%= cat %> </li>
    <% } %>
     </ul>
     
- - Includes:
+- Includes:
  <%- include ('partials/navbar') %>
 
 - Nodemon: automatically restarting the node application when file changes in directory are detected
