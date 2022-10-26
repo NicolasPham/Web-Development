@@ -413,7 +413,7 @@ Install bootstrap in HTML:
 >> app.get('/', (req, res) => res.render('home'); //render the HTML file home 
 
 - Post request: used to post data to the server, used to write/create/update. Can send any sort of data (JSON) via request body, not a query string
->> 
+>> app.use(express.urlencoded({extended: true}));
 >> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
  >>> req.body.idName : idName must match with the name of the input
  
@@ -468,6 +468,9 @@ Install bootstrap in HTML:
  >> install: npm install body-parser
  >> const bodyParser = require("body-parser");
  >> app.use(bodyParser.urlencode({extended: true}));
+
+- REST - representation state transfer:
+
 
  ```
 </p></details>
