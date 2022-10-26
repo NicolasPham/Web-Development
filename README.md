@@ -407,10 +407,17 @@ Install bootstrap in HTML:
  >> const path = require('path');
  >> app.set('views', path.join(__dirname, '/views') // join the path in the parentheses
  
+- Get request: used to retrieve information, data is sent via query string, limited amount of data can be sent 
 >> app.get("/", (req, res) => res.sendFile(__dirname + "index.html")); 
 >> app.get("/", (req, res) => res.send("Contact me at: nickpham163@gmail.com")); //we can use res.write with combination of res.send
 >> app.get('/', (req, res) => res.render('home'); //render the HTML file home 
 
+- Post request: used to post data to the server, used to write/create/update. Can send any sort of data (JSON) via request body, not a query string
+>> 
+>> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
+ >>> req.body.idName : idName must match with the name of the input
+ 
+>> app.use(express.static("{folderName}"); //link the css sources and imgages to the html
 >> app.use(() => console.log("We got a new request!!!!")) //anytime we hit refresh, this code run
 
 -  Serve static assest: express.static(root, [optional]);
@@ -418,9 +425,8 @@ Install bootstrap in HTML:
 >> app.use(express.static(path.join(__dirname, "/public")));
 
 >> app.listen(port, () => console.log("Server is running on port 3000"));
->> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
- >>> req.body.idName : idName must match with the name of the input
->> app.use(express.static("{folderName}"); //link the css sources and imgages to the html
+
+
  
 >> Express Path Parameter:
   >>> "/:something" :checking for pattern like an variable
