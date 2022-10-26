@@ -470,7 +470,11 @@ Install bootstrap in HTML:
  >> app.use(bodyParser.urlencode({extended: true}));
 
 - REST - representation state transfer:
-
+>> Index : GET /comments - list all comments
+>> Show: GET /comments / :id - get 1 comment (using ID)
+>> Create: POST /comments - Create a new comment
+>> Update: PATCH /comments / :id - update 1 comment
+>> Destroy: DELETE /comments / :id - delete 1 comment 
 
  ```
 </p></details>
