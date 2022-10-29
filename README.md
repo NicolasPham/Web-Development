@@ -533,7 +533,26 @@ Install bootstrap in HTML:
  >> create a .env file in 'front-end folder' to secure the "projectId" and "token"
   >>> terminal: sanity start - compile and fetch data at defined localhost
  
- 
+- Map / Filter / Reduce: 
+ >> Map: create a new array by doing somethin with each item in an array
+   >>> const newArray = array.map((item, index) => {});
+   
+ >> Filter: create a new array by keeping the items that return true.
+   >>> const newArray = array.filter((number) => {
+    return num > 10
+   });
+   
+ >> Reduce: Accumulate a value by doing something to each item in an array.
+   >> array.reduce((accumulator, currentNumber) => {
+   return accumulator + currentNumber
+   });
+   
+ >> Find: find the first item that matches from an array.
+   >>> const newArray = array.find((num) => {
+    return num > 10
+   }); 
+   
+ >> FindIndex: find the index of the first item that matches.
  
  
  
