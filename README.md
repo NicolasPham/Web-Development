@@ -416,6 +416,8 @@ Install bootstrap in HTML:
 >> app.use(express.urlencoded({extended: true}));
 >> app.post("/", (req, res) => {...}); route the HTTP POST request to the specify path with the specify callback function
  >>> req.body.idName : idName must match with the name of the input
+ >>> res.redirect()
+
  
 >> app.use(express.static("{folderName}"); //link the css sources and imgages to the html
 >> app.use(() => console.log("We got a new request!!!!")) //anytime we hit refresh, this code run
